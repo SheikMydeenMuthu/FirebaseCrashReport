@@ -7,6 +7,7 @@ using Xamarin.Forms;
 
 using FirebaseCrashReport.Models;
 using FirebaseCrashReport.Services;
+using FirebaseCrashReport.Interface;
 
 namespace FirebaseCrashReport.ViewModels
 {

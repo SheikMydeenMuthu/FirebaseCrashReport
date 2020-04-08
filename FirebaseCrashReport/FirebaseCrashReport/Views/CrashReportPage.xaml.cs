@@ -1,4 +1,5 @@
-﻿using FirebaseCrashReport.ViewModels;
+﻿using FirebaseCrashReport.Interface;
+using FirebaseCrashReport.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace FirebaseCrashReport.Views
     {
         public CrashReportPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
             BindingContext = new CrashReportViewModel();
         }
     }
